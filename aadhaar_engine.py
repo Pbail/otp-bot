@@ -17,7 +17,7 @@ load_dotenv()
 # Force all spawned python subprocesses to use UTF-8 output encoding
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
-DEVELOPER_USERNAME = os.getenv('DEVELOPER_USERNAME', 'mr_pbail')
+DEVELOPER_USERNAME = os.getenv('DEVELOPER_USERNAME', 'MR_Pbail')
 
 def escape_html(s):
     return str(s or '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
